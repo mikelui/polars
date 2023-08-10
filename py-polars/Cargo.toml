@@ -19,7 +19,7 @@ lexical-core = "0.8"
 # todo: unfix when compilation problem is solved
 libc = "0.2"
 ndarray = "0.15"
-numpy = "0.19"
+numpy = "0.18"
 once_cell = "1"
 polars-algo = { version = "0.31.1", default-features = false }
 polars-core = { version = "0.31.1", features = ["python"], default-features = false }
