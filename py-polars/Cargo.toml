@@ -25,7 +25,7 @@ polars-algo = { path = "../crates/polars-algo", default-features = false }
 polars-core = { path = "../crates/polars-core", features = ["python"], default-features = false }
 polars-error = { path = "../crates/polars-error" }
 polars-lazy = { path = "../crates/polars-lazy", features = ["python"], default-features = false }
-pyo3 = { version = "0.19", features = ["abi3-py38", "extension-module", "multiple-pymethods"] }
+pyo3 = { version = "0.18", features = ["abi3-py38", "extension-module", "multiple-pymethods"] }
 pyo3-built = { version = "0.4", optional = true }
 serde_json = { version = "1", optional = true }
 smartstring = "1"
